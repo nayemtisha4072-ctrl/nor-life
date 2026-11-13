@@ -1,0 +1,6 @@
+{
+  "name": "নূর লাইফ — NOOR LIFE",
+  "description": "আপনার সম্পূর্ণ ইসলামিক জীবনসঙ্গী — কুরআন, নামাজের সময়, কিবলা কম্পাস, ডিজিটাল তাসবিহ, দোয়া, আসমাউল হুসনা ও ইসলামিক জ্ঞান।",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

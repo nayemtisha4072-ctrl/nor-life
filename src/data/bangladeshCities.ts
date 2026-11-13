@@ -1,0 +1,43 @@
+import { CityLocation } from '../types';
+
+export const DEFAULT_BANGLADESH_CITY: CityLocation = {
+  id: 'dhaka',
+  nameBn: 'ঢাকা',
+  nameEn: 'Dhaka',
+  countryBn: 'বাংলাদেশ',
+  countryEn: 'Bangladesh',
+  latitude: 23.8103,
+  longitude: 90.4125,
+  timezone: 'Asia/Dhaka',
+};
+
+export const BANGLADESH_AND_WORLD_CITIES: CityLocation[] = [
+  DEFAULT_BANGLADESH_CITY,
+  { id: 'chattogram', nameBn: 'চট্টগ্রাম', nameEn: 'Chattogram', countryBn: 'বাংলাদেশ', countryEn: 'Bangladesh', latitude: 22.3569, longitude: 91.7832, timezone: 'Asia/Dhaka' },
+  { id: 'sylhet', nameBn: 'সিলেট', nameEn: 'Sylhet', countryBn: 'বাংলাদেশ', countryEn: 'Bangladesh', latitude: 24.8949, longitude: 91.8687, timezone: 'Asia/Dhaka' },
+  { id: 'rajshahi', nameBn: 'রাজশাহী', nameEn: 'Rajshahi', countryBn: 'বাংলাদেশ', countryEn: 'Bangladesh', latitude: 24.3745, longitude: 88.6042, timezone: 'Asia/Dhaka' },
+  { id: 'khulna', nameBn: 'খুলনা', nameEn: 'Khulna', countryBn: 'বাংলাদেশ', countryEn: 'Bangladesh', latitude: 22.8456, longitude: 89.5403, timezone: 'Asia/Dhaka' },
+  { id: 'barishal', nameBn: 'বরিশাল', nameEn: 'Barishal', countryBn: 'বাংলাদেশ', countryEn: 'Bangladesh', latitude: 22.7010, longitude: 90.3535, timezone: 'Asia/Dhaka' },
+  { id: 'rangpur', nameBn: 'রংপুর', nameEn: 'Rangpur', countryBn: 'বাংলাদেশ', countryEn: 'Bangladesh', latitude: 25.7439, longitude: 89.2752, timezone: 'Asia/Dhaka' },
+  { id: 'mymensingh', nameBn: 'ময়মনসিংহ', nameEn: 'Mymensingh', countryBn: 'বাংলাদেশ', countryEn: 'Bangladesh', latitude: 24.7471, longitude: 90.4203, timezone: 'Asia/Dhaka' },
+  { id: 'cumilla', nameBn: 'কুমিল্লা', nameEn: 'Cumilla', countryBn: 'বাংলাদেশ', countryEn: 'Bangladesh', latitude: 23.4607, longitude: 91.1809, timezone: 'Asia/Dhaka' },
+  { id: 'gazipur', nameBn: 'গাজীপুর', nameEn: 'Gazipur', countryBn: 'বাংলাদেশ', countryEn: 'Bangladesh', latitude: 24.0023, longitude: 90.4264, timezone: 'Asia/Dhaka' },
+  { id: 'narayanganj', nameBn: 'নারায়ণগঞ্জ', nameEn: 'Narayanganj', countryBn: 'বাংলাদেশ', countryEn: 'Bangladesh', latitude: 23.6238, longitude: 90.5000, timezone: 'Asia/Dhaka' },
+  { id: 'coxsbazar', nameBn: 'কক্সবাজার', nameEn: "Cox's Bazar", countryBn: 'বাংলাদেশ', countryEn: 'Bangladesh', latitude: 21.4272, longitude: 92.0058, timezone: 'Asia/Dhaka' },
+  { id: 'bogura', nameBn: 'বগুড়া', nameEn: 'Bogura', countryBn: 'বাংলাদেশ', countryEn: 'Bangladesh', latitude: 24.8465, longitude: 89.3773, timezone: 'Asia/Dhaka' },
+  { id: 'jashore', nameBn: 'যশোর', nameEn: 'Jashore', countryBn: 'বাংলাদেশ', countryEn: 'Bangladesh', latitude: 23.1664, longitude: 89.2081, timezone: 'Asia/Dhaka' },
+  { id: 'dinajpur', nameBn: 'দিনাজপুর', nameEn: 'Dinajpur', countryBn: 'বাংলাদেশ', countryEn: 'Bangladesh', latitude: 25.6217, longitude: 88.6354, timezone: 'Asia/Dhaka' },
+  { id: 'noakhali', nameBn: 'নোয়াখালী', nameEn: 'Noakhali', countryBn: 'বাংলাদেশ', countryEn: 'Bangladesh', latitude: 22.8724, longitude: 91.0973, timezone: 'Asia/Dhaka' },
+  { id: 'tangail', nameBn: 'টাঙ্গাইল', nameEn: 'Tangail', countryBn: 'বাংলাদেশ', countryEn: 'Bangladesh', latitude: 24.2513, longitude: 89.9167, timezone: 'Asia/Dhaka' },
+  { id: 'faridpur', nameBn: 'ফরিদপুর', nameEn: 'Faridpur', countryBn: 'বাংলাদেশ', countryEn: 'Bangladesh', latitude: 23.6071, longitude: 89.8429, timezone: 'Asia/Dhaka' },
+  { id: 'pabna', nameBn: 'পাবনা', nameEn: 'Pabna', countryBn: 'বাংলাদেশ', countryEn: 'Bangladesh', latitude: 24.0064, longitude: 89.2372, timezone: 'Asia/Dhaka' },
+  { id: 'kushtia', nameBn: 'কুষ্টিয়া', nameEn: 'Kushtia', countryBn: 'বাংলাদেশ', countryEn: 'Bangladesh', latitude: 23.9013, longitude: 89.1205, timezone: 'Asia/Dhaka' },
+  { id: 'brahmanbaria', nameBn: 'ব্রাহ্মণবাড়িয়া', nameEn: 'Brahmanbaria', countryBn: 'বাংলাদেশ', countryEn: 'Bangladesh', latitude: 23.9571, longitude: 91.1119, timezone: 'Asia/Dhaka' },
+  { id: 'feni', nameBn: 'ফেনী', nameEn: 'Feni', countryBn: 'বাংলাদেশ', countryEn: 'Bangladesh', latitude: 23.0159, longitude: 91.3976, timezone: 'Asia/Dhaka' },
+  { id: 'chandpur', nameBn: 'চাঁদপুর', nameEn: 'Chandpur', countryBn: 'বাংলাদেশ', countryEn: 'Bangladesh', latitude: 23.2333, longitude: 90.6713, timezone: 'Asia/Dhaka' },
+  { id: 'kishoreganj', nameBn: 'কিশোরগঞ্জ', nameEn: 'Kishoreganj', countryBn: 'বাংলাদেশ', countryEn: 'Bangladesh', latitude: 24.4449, longitude: 90.7766, timezone: 'Asia/Dhaka' },
+  { id: 'makkah', nameBn: 'মক্কা আল-মুকাররামাহ', nameEn: 'Makkah', countryBn: 'সৌদি আরব', countryEn: 'Saudi Arabia', latitude: 21.4225, longitude: 39.8262, timezone: 'Asia/Riyadh' },
+  { id: 'madinah', nameBn: 'মদিনা আল-মুনাওয়ারাহ', nameEn: 'Madinah', countryBn: 'সৌদি আরব', countryEn: 'Saudi Arabia', latitude: 24.4672, longitude: 39.6111, timezone: 'Asia/Riyadh' },
+  { id: 'london', nameBn: 'লন্ডন', nameEn: 'London', countryBn: 'যুক্তরাজ্য', countryEn: 'United Kingdom', latitude: 51.5074, longitude: -0.1278, timezone: 'Europe/London' },
+  { id: 'newyork', nameBn: 'নিউ ইয়র্ক', nameEn: 'New York', countryBn: 'যুক্তরাষ্ট্র', countryEn: 'USA', latitude: 40.7128, longitude: -74.006, timezone: 'America/New_York' },
+];
